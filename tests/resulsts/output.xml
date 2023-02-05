@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.9.7 on win32)" generated="20230205 09:44:59.928" rpa="false" schemaversion="3">
+<suite id="s1" name="Form" source="C:\Users\Dell\Testing\Testing\tests\form.robot">
+<test id="s1-t1" name="Test Case 1" line="12">
+<kw name="Common.Start-web-browser">
+<msg timestamp="20230205 09:45:00.428" level="FAIL">No keyword with name 'Common.Start-web-browser' found. Did you mean:
+    Common.Start Web Browser</msg>
+<status status="FAIL" starttime="20230205 09:45:00.428" endtime="20230205 09:45:00.428"/>
+</kw>
+<kw name="type-in-feild" library="portionOne">
+<status status="NOT RUN" starttime="20230205 09:45:00.429" endtime="20230205 09:45:00.429"/>
+</kw>
+<kw name="select-checkbox" library="portionOne">
+<status status="NOT RUN" starttime="20230205 09:45:00.429" endtime="20230205 09:45:00.429"/>
+</kw>
+<kw name="check-radio-button" library="portionOne">
+<status status="NOT RUN" starttime="20230205 09:45:00.430" endtime="20230205 09:45:00.430"/>
+</kw>
+<status status="FAIL" starttime="20230205 09:45:00.417" endtime="20230205 09:45:00.430">No keyword with name 'Common.Start-web-browser' found. Did you mean:
+    Common.Start Web Browser</status>
+</test>
+<test id="s1-t2" name="Test Case 2" line="17">
+<kw name="list-one" library="portionTwo">
+<kw name="Select From List By Value">
+<arg>${list-one-locotor}</arg>
+<arg>${list-one-selected}</arg>
+<msg timestamp="20230205 09:45:00.433" level="FAIL">Multiple keywords with name 'Select From List By Value' found. Give the full name of the keyword you want to use:
+    Selenium2Library.Select From List By Value
+    SeleniumLibrary.Select From List By Value</msg>
+<status status="FAIL" starttime="20230205 09:45:00.433" endtime="20230205 09:45:00.433"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${seconds}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230205 09:45:00.434" endtime="20230205 09:45:00.434"/>
+</kw>
+<status status="FAIL" starttime="20230205 09:45:00.433" endtime="20230205 09:45:00.434"/>
+</kw>
+<kw name="list-two" library="portionTwo">
+<status status="NOT RUN" starttime="20230205 09:45:00.435" endtime="20230205 09:45:00.435"/>
+</kw>
+<kw name="Text-area" library="portionTwo">
+<status status="NOT RUN" starttime="20230205 09:45:00.436" endtime="20230205 09:45:00.436"/>
+</kw>
+<status status="FAIL" starttime="20230205 09:45:00.432" endtime="20230205 09:45:00.436">Multiple keywords with name 'Select From List By Value' found. Give the full name of the keyword you want to use:
+    Selenium2Library.Select From List By Value
+    SeleniumLibrary.Select From List By Value</status>
+</test>
+<test id="s1-t3" name="Test Case 3" line="22">
+<kw name="Disable-inputfeild" library="portionThree">
+<kw name="Click Element">
+<arg>${disable-inputfeild}</arg>
+<msg timestamp="20230205 09:45:00.439" level="FAIL">Multiple keywords with name 'Click Element' found. Give the full name of the keyword you want to use:
+    Selenium2Library.Click Element
+    SeleniumLibrary.Click Element</msg>
+<status status="FAIL" starttime="20230205 09:45:00.439" endtime="20230205 09:45:00.439"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${seconds}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230205 09:45:00.440" endtime="20230205 09:45:00.440"/>
+</kw>
+<status status="FAIL" starttime="20230205 09:45:00.439" endtime="20230205 09:45:00.440"/>
+</kw>
+<kw name="Toggle-button" library="portionThree">
+<status status="NOT RUN" starttime="20230205 09:45:00.441" endtime="20230205 09:45:00.441"/>
+</kw>
+<kw name="Range-slider" library="portionThree">
+<status status="NOT RUN" starttime="20230205 09:45:00.441" endtime="20230205 09:45:00.441"/>
+</kw>
+<status status="FAIL" starttime="20230205 09:45:00.438" endtime="20230205 09:45:00.441">Multiple keywords with name 'Click Element' found. Give the full name of the keyword you want to use:
+    Selenium2Library.Click Element
+    SeleniumLibrary.Click Element</status>
+</test>
+<test id="s1-t4" name="Test Case 4" line="26">
+<kw name="Common.end-web-browser">
+<msg timestamp="20230205 09:45:00.458" level="FAIL">No keyword with name 'Common.end-web-browser' found. Did you mean:
+    Common.End Web Browser</msg>
+<status status="FAIL" starttime="20230205 09:45:00.458" endtime="20230205 09:45:00.458"/>
+</kw>
+<status status="FAIL" starttime="20230205 09:45:00.443" endtime="20230205 09:45:00.459">No keyword with name 'Common.end-web-browser' found. Did you mean:
+    Common.End Web Browser</status>
+</test>
+<status status="FAIL" starttime="20230205 09:44:59.931" endtime="20230205 09:45:00.461"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Form">Form</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
